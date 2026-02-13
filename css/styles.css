@@ -150,6 +150,44 @@
   background-image: url(../img/hd3.jpg);
 }
 
+/* Event location */
+#location {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/hd1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+  color: var(--text-color);
+  text-align: center;
+}
+
+#address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+#address img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1em;
+}
+
+#address-details p {
+  margin-bottom: 0.5em;
+}
+
+#about-location h3 {
+  color: var(--primary);
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#about-location p {
+  line-height: 1.5em;
+}
+
+
 /* Media Queries */
 @media (min-width: 768px) {
   #event-subscription {
