@@ -220,6 +220,25 @@
   margin-bottom: 0.5em;
 }
 
+/* Call to Action Section */
+#cta {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/moto6.jpg); 
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+  text-align: center;
+  color: var(--text-color);
+}
+
+#cta h3 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+#cta .btn {
+  width: 80%;
+  max-width: 300px;
+}
 
 /* Media Queries */
 @media (min-width: 768px) {
