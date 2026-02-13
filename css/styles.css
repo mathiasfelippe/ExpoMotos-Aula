@@ -187,6 +187,39 @@
   line-height: 1.5em;
 }
 
+/* Event details container */
+#details {
+  padding: 2em;
+  text-align: center;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+
+.detail img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.detail h3 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.detail-description ul {
+  list-style-position: inside;
+  text-align: left;
+}
+
+.detail-description ul li {
+  margin-bottom: 0.5em;
+}
+
 
 /* Media Queries */
 @media (min-width: 768px) {
