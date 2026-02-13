@@ -240,6 +240,28 @@
   max-width: 300px;
 }
 
+/* Footer */
+#footer {
+  background-color: var(--secondary);
+  padding: 2em;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+#footer h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#footer p {
+  margin-bottom: 0.5em;
+}
+
+#footer span {
+  font-weight: bold;
+}
+
+
 /* Media Queries */
 @media (min-width: 768px) {
   #event-subscription {
